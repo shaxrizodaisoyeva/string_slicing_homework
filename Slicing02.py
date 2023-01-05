@@ -6,4 +6,8 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a=len(s)
+    b=s[(a-4):a]
+    return b
+s="abcdefaziz"
+print(main(s))
