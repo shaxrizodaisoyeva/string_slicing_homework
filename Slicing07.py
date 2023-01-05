@@ -7,9 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    a=len(s)
-    if a==n:
-        x="" 
-    else:
-        x=s[0:(a-n)]
+    
+    x=s[0:(-1-(n-1))]
     return x
