@@ -9,7 +9,7 @@ def main(s,n):
     """
     a=len(s)
     if a==n:
-        x=s 
+        x="" 
     else:
         x=s[0:(a-n)]
     return x
