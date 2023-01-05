@@ -10,6 +10,8 @@ def main(s,n,k):
     """
     if n==k:
         a=s[n]
+    elif s=="":
+        a="hi"
     else:
         a=s[n:k]
     return a
