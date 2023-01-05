@@ -11,5 +11,5 @@ def main(s,n,k):
     if n==k:
         a=s[n]
     else:
-        a=s[n:(k+1)]
+        a=s[n:k]
     return a
