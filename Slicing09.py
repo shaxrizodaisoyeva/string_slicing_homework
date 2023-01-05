@@ -7,4 +7,4 @@ def main(s):
         str: answer
     """
     a=len(s)
-    return s[0:(a-1):2]
+    return s[0:a:2]
