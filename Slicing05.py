@@ -8,4 +8,5 @@ def main(s,n):
         str: answer
     """
     a=len(s)
-    return s[(n-1):a]
+    b=s[a-n:a]
+    return b
