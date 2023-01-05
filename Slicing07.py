@@ -8,4 +8,8 @@ def main(s,n):
         str: answer
     """
     a=len(s)
-    return s[0:(a-n)]
+    if a==n:
+        x=s 
+    else:
+        x=s[0:(a-n)]
+    return x
