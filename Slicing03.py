@@ -5,4 +5,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a=len(s)
+    b=s[1:(a-1)]
+    return b 
