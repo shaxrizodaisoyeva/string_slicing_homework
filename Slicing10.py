@@ -8,7 +8,7 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    if n==k:
+    if n<=k:
         a=s[n]
     else:
         a=s[n:k]
